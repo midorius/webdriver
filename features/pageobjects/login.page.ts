@@ -9,15 +9,15 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
     public get inputUsername () {
-        return $('#username');
+        return $('#user');
     }
 
     public get inputPassword () {
-        return $('#password');
+        return $('#pass');
     }
 
     public get btnSubmit () {
-        return $('button[type="submit"]');
+        return $('#send');
     }
 
     /**
@@ -34,8 +34,12 @@ class LoginPage extends Page {
      * overwrite specific options to adapt it to page object
      */
     public open () {
-        return super.open('login');
+        return super.open('auth');
     }
 }
 
 export default new LoginPage();
+
+
+//adamekbananek6
+//adamekbananek7
