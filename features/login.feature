@@ -8,6 +8,6 @@ Feature: The Internet Guinea Pig Website
 
     Examples:
       | username | password             | message                        |
-      | tomsmith | SuperSecretPassword! | You logged into a secure area! |
-      | foobar   | barfoo               | Your username is invalid!      |
+      | standard_user | secret_sauce | You logged into a secure area! |
+      | locked_out_user   | secret_sauce               | Your username is invalid!      |
 

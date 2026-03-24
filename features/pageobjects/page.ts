@@ -10,6 +10,6 @@ export default class Page {
     * @param path path of the sub page (e.g. /path/to/page.html)
     */
     public open (path: string) {
-        return browser.url(`https://apps.projnull.eu/memopad/#/${path}`)
+        return browser.url(`https://www.saucedemo.com/${path}`)
     }
 }
